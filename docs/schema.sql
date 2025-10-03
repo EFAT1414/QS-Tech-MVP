@@ -41,3 +41,4 @@ CREATE TABLE IF NOT EXISTS audit_log (
   payload_json JSON NULL,
   created_at DATETIME NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+ALTER TABLE projects ADD COLUMN due_date DATE NULL AFTER jira_key;
