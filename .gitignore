@@ -1,0 +1,7 @@
+/public_html/app/config.php
+/vendor/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
