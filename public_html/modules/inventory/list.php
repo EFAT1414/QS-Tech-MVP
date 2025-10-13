@@ -15,7 +15,7 @@ $rows=$pdo->query('SELECT * FROM inventory ORDER BY name')->fetchAll();
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:40px}input{padding:8px;margin:6px 0;border:1px solid #ccc;border-radius:6px}.btn{padding:8px 12px;border:0;background:#111;color:#fff;border-radius:8px;cursor:pointer}table{border-collapse:collapse;width:100%;margin-top:20px}th,td{border:1px solid #ddd;padding:8px}tr.low{background:#fff3cd}.wrap{max-width:980px;margin:auto}a{color:#0c63e4;text-decoration:none}</style></head>
 <body><div class="wrap">
-<h1>Inventory</h1><p><a href="/index.php">Home</a></p>
+<h1>Inventory</h1><p><a href="../../index.php">Home</a></p>
 <?php if($msg): ?><p><strong><?= sanitize($msg) ?></strong></p><?php endif; ?>
 <form method="post">
 <label>SKU</label><br><input name="sku" required>
